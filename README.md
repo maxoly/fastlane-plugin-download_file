@@ -1,6 +1,8 @@
-# download_file plugin
+# download_file plugin ⏬
 
 [![fastlane Plugin Badge](https://rawcdn.githack.com/fastlane/fastlane/master/fastlane/assets/plugin-badge.svg)](https://rubygems.org/gems/fastlane-plugin-download_file)
+[![Gem Version](https://badge.fury.io/rb/fastlane-plugin-download_file.svg)](https://badge.fury.io/rb/fastlane-plugin-download_file)
+[![CircleCI](https://circleci.com/gh/maxoly/fastlane-plugin-download_file.svg?style=svg)](https://circleci.com/gh/maxoly/fastlane-plugin-download_file)
 
 ## Getting Started
 
