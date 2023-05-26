@@ -17,8 +17,7 @@ module Fastlane
           partial = 0
           progress = 0
           File.open(destination_path, "wb") do |saved_file|
-            # the following "open" is provided by open-uri
-            open(params[:url], "rb", :content_length_proc => lambda {|t|
+            URI.open(params[:url], "rb", :content_length_proc => lambda {|t|
               if t && 0 < t
                 step = t / 10
                 partial = step
